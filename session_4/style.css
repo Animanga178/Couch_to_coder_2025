@@ -30,3 +30,47 @@ footer {
 .steps {
     margin-bottom: 20px;
 }
+
+h1 {
+    font-family: "Macondo";
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header div {
+    display: flex;
+}
+
+form {
+    width: 33%;
+    text-align: center;
+    margin: 48px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+    
+}
